@@ -8,6 +8,115 @@
  *    user zoom.
  */
 
+ /* body {
+   font-family: 'Open Sans', sans-serif;
+   /* background-color: #FFFAF6; */
+   /* margin: 0;
+ padding: 0; */
+ /* background-image: url(../img/noise.png);
+ background-color: #0D1322; */
+ /* background-size: 32%; */
+ /* color: #C5C7CC;
+ } */ 
+ /*Basic Phone styling*/
+
+ .phone {
+   /* border: 40px solid #ddd; */
+   border-width: 55px 7px;
+   border-radius: 40px;
+   margin: 50px auto;
+   overflow: hidden;
+   transition: all 0.5s ease;
+ }
+ .form{
+	 width: 150px;
+	 color: black;
+	 border: 5px;
+ }
+ 
+ .phone iframe {
+   border: 0;
+   width: 100%;
+   height: 100%;
+ }
+ /*Different Perspectives*/
+ 
+ .phone.view_1 {
+   transform: rotateX(50deg) rotateY(0deg) rotateZ(-50deg);
+   box-shadow: -3px 3px 0 , -6px 6px 0 #BBB, -9px 9px 0 #BBB, -12px 12px 0 #BBB, -14px 10px 20px #666;
+ }
+ 
+ .phone.view_2 {
+   transform: rotateX(0deg) rotateY(-60deg) rotateZ(0deg);
+   box-shadow: 5px 1px 0 #BBB, 9px 2px 0 #BBB, 12px 3px 0 #BBB, 15px 4px 0 #BBB, 0 7px 20px #999;
+ }
+ 
+ .phone.view_3 {
+   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+   box-shadow: 0px 3px 0 #BBB, 0px 4px 0 #BBB, 0px 5px 0 #BBB, 0px 7px 0 #BBB, 0px 10px 20px #666;
+ }
+ /*Controls*/
+ 
+ #controls {
+   position: absolute;
+   top: 1200px;
+   left: 20px;
+   font-size: 16px;
+   color: white;
+ }
+ 
+ #controls div {
+   margin: 10px;
+ }
+ 
+ #controls div label {
+   width: 120px;
+   display: block;
+   float: left;
+ }
+ 
+ #views {
+   position: absolute;
+   top: 1200px;
+   right: 20px;
+   width: 200px;
+   font-size: 16px;
+ }
+ 
+ #views button {
+   width: 150px;
+   border: 1px solid#3BE8B0;
+   background-color: #3BE8B0;
+   height: 30px;
+   margin: 10px 0;
+   color:white;
+   transition: all 0.2s;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ #views button:hover {
+   color: #444;
+   background-color: #eee;
+ }
+ 
+ @media (max-width:900px) {
+   #wrapper {
+	 transform: scale(0.8, 0.8);
+   }
+ }
+ 
+ @media (max-width:700px) {
+   #wrapper {
+	 transform: scale(0.6, 0.6);
+   }
+ }
+ 
+ @media (max-width:500px) {
+   #wrapper {
+	 transform: scale(0.4, 0.4);
+   }
+ }
 html {
 	font-family: sans-serif; /* 1 */
 	-ms-text-size-adjust: 100%; /* 2 */
@@ -185,7 +294,7 @@ sub {
 	margin: 8px 0 0 4px;
 }
 .feliz{
-	width: 230px;
+	width: 320px;
 }
 .satisfecho{
 	width: 150px;
@@ -14117,8 +14226,13 @@ body .expertise-header .expertise-cta {
 }
 
 .example-item-hero.example-hero-2 {
-	top: 15%;
-	left: 70% !important;
+	top: 19%;
+	left: 80% !important;
+}
+
+@media (max-width: 480px){
+.feliz{
+width: 120px;
 }
 
 .example-item-text,
@@ -15569,7 +15683,7 @@ body .expertise-centre {
 }
 
 .example-item-hero.example-hero-2 {
-	top: 6%;
+	/* top: 6%; */
 }
 
 .expertise-cta-cap .start-project-cta span {
