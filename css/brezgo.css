@@ -13,7 +13,15 @@ html {
 	-ms-text-size-adjust: 100%; /* 2 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 }
-
+@font-face {
+	font-family: 'Questrial script=all rev=2';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/l/font?kit=QdVUSTchPBm7nuUeVf7EvDMWs00SBlsXQ5AKWDWERGpjv2yXUosufwHx98bCaAIZYbS0C6WLCLIqDCA931M4Og5EEPpi96i6dbpX4thBTEq9N1pns1VNUkQbtOyeLD9rdylV6qI4xfRSlKdGGGoww0pwuVjJgbC7Crt_D7YxVf6o8hxCVuzYxw&skey=52b8dabeb218987d&v=v9) format('woff2');
+}
+.letra{
+	font-family: "Questrial script=all rev=2", "Adobe Blank";font-weight: 400;font-style: normal;
+}
 /**
  * Remove default margin.
  */
@@ -476,29 +484,30 @@ svg {
 	height: 0;
 }
 
-@font-face {
+
+/* @font-face {
 	font-family: 'GT Walsheim Light';
-	src: url("_fonts/webfont/GT-Walsheim-Ultra-Light.eot");
-	src: url("_fonts/webfont/GT-Walsheim-Ultra-Light.eot?#iefix") format("embedded-opentype"), url("_fonts/webfont/GT-Walsheim-Ultra-Light.woff") format("woff"), url("_fonts/webfont/GT-Walsheim-Ultra-Light.ttf") format("truetype");
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Ultra-Light.eot);
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Ultra-Light.eot?#iefix) format("embedded-opentype"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Ultra-Light.woff) format("woff"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Ultra-Light.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: 'GT Walsheim Regular';
-	src: url("_fonts/webfont/GT-Walsheim-Light.eot");
-	src: url("_fonts/webfont/GT-Walsheim-Light.eot?#iefix") format("embedded-opentype"), url("_fonts/webfont/GT-Walsheim-Light.woff") format("woff"), url("_fonts/webfont/GT-Walsheim-Light.ttf") format("truetype");
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Light.eot);
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Light.eot?#iefix) format("embedded-opentype"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Light.woff) format("woff"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Light.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: 'GT Walsheim Medium';
-	src: url("_fonts/webfont/GT-Walsheim-Regular.eot");
-	src: url("_fonts/webfont/GT-Walsheim-Regular.eot?#iefix") format("embedded-opentype"), url("_fonts/webfont/GT-Walsheim-Regular.woff") format("woff"), url("_fonts/webfont/GT-Walsheim-Regular.ttf") format("truetype");
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Regular.eot);
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Regular.eot?#iefix) format("embedded-opentype"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Regular.woff) format("woff"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Regular.ttf) format("truetype");
 }
 
 @font-face {
 	font-family: 'GT Walsheim Bold';
-	src: url("_fonts/webfont/GT-Walsheim-Bold.eot");
-	src: url("_fonts/webfont/GT-Walsheim-Bold.eot?#iefix") format("embedded-opentype"), url("_fonts/webfont/GT-Walsheim-Bold.woff") format("woff"), url("_fonts/webfont/GT-Walsheim-Bold.ttf") format("truetype");
-}
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Bold.eot);
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Bold.eot?#iefix) format("embedded-opentype"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Bold.woff) format("woff"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/webfont/GT-Walsheim-Bold.ttf) format("truetype");
+} */
 
 html {
 	font-size: 6.25%;
@@ -575,12 +584,12 @@ a {
 	-webkit-transition: color 0.15s linear;
 	transition: color 0.15s linear;
 }
-
+/* 
 @font-face {
 	font-family: "Icons";
-	src: url("_fonts/Icons.eot");
-	src: url("_fonts/Icons.eot?#iefix") format("eot"), url("_fonts/Icons.woff") format("woff"), url("_fonts/Icons.ttf") format("truetype"), url("_fonts/Icons.svg#Icons") format("svg");
-}
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/Icons.eot);
+	src: url(https://humaan.com/wp-content/themes/humaan/css/_fonts/Icons.eot?#iefix) format("eot"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/Icons.woff) format("woff"), url(https://humaan.com/wp-content/themes/humaan/css/_fonts/Icons.ttf) format("truetype"), url("_fonts/Icons.svg#Icons") format("svg");
+} */
 
 .icon:before {
 	font-family: "Icons";
